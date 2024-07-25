@@ -1,13 +1,13 @@
-# blog.wolfstar.rocks [![Discord](https://discord.com/api/guilds/254360814063058944/embed.png)](https://join.wolfstar.rocks)
+# blog.wolfstar.rocks [![Discord](https://discord.com/api/guilds/830481105261821952/embed.png)](https://join.wolfstar.rocks)
 
 ## Contributors
 
 Please make sure to read the [Contributing Guide][contributing] before making a pull request.
 
-Thank you to all the people who already contributed to Skyra Project!
+Thank you to all the people who already contributed to WolfStar Project!
 
-<a href="https://github.com/skyra-project/blog.wolfstar.rocks/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=skyra-project/blog.wolfstar.rocks" />
+<a href="https://github.com/wolfstar-project/blog.wolfstar.rocks/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=wolfstar-project/blog.wolfstar.rocks" />
 </a>
 
-[contributing]: https://github.com/skyra-project/.github/blob/main/.github/CONTRIBUTING.md
+[contributing]: https://github.com/wolfstar-project/.github/blob/main/.github/CONTRIBUTING.md

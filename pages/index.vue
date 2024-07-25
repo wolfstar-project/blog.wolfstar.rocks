@@ -59,6 +59,6 @@ const date = new Intl.DateTimeFormat(['en-GB', 'en-US']);
 const longDate = new Intl.DateTimeFormat(['en-GB', 'en-US'], { dateStyle: 'full' });
 
 useHead({
-	title: 'Skyra Blog'
+	title: 'WolfStar Blog'
 });
 </script>
