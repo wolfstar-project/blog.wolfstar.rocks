@@ -79,7 +79,7 @@ export default defineNuxtConfig({
 			scope: '/',
 			short_name: 'WolfStar Network',
 			start_url: '/',
-			theme_color: '#1E88E5',
+			theme_color: '#fd171b',
 			icons: manifestIcons,
 			shortcuts: [
 				{
