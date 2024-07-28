@@ -19,7 +19,7 @@
 		"prettier-plugin-tailwindcss": "^0.6.5",
 		"sitemap": "^8.0.0",
 		"typescript": "^5.5.2",
-		"vite-plugin-pwa": "^0.20.0"
+		"vite-plugin-pwa": "^0.20.1"
 	},
 	"packageManager": "yarn@4.3.1"
 }
