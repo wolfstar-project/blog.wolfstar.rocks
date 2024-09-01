@@ -2943,9 +2943,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/typography@npm:^0.5.14":
-  version: 0.5.14
-  resolution: "@tailwindcss/typography@npm:0.5.14"
+"@tailwindcss/typography@npm:^0.5.15":
+  version: 0.5.15
+  resolution: "@tailwindcss/typography@npm:0.5.15"
   dependencies:
     lodash.castarray: "npm:^4.4.0"
     lodash.isplainobject: "npm:^4.0.6"
@@ -2953,7 +2953,7 @@ __metadata:
     postcss-selector-parser: "npm:6.0.10"
   peerDependencies:
     tailwindcss: "*"
-  checksum: 10/89b88d48a65a91d64bc0c12380bcf10824897442f81a51a120483e62a1bd654c745577d29567f48ec724c77044f65135f0f7ff2f75fa38b26691d3f3db5e8164
+  checksum: 10/8c677e4de25a5362d757c3c0b9d594b63c789ab287cad846a082ca227e0d3435145793301ced8f32d5215d5c21537195e7d87ca08a6e7a8facf47a11e7f07d22
   languageName: node
   linkType: hard
 
@@ -3168,9 +3168,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vite-pwa/nuxt@npm:^0.10.0":
-  version: 0.10.0
-  resolution: "@vite-pwa/nuxt@npm:0.10.0"
+"@vite-pwa/nuxt@npm:^0.10.1":
+  version: 0.10.1
+  resolution: "@vite-pwa/nuxt@npm:0.10.1"
   dependencies:
     "@nuxt/kit": "npm:^3.9.0"
     pathe: "npm:^1.1.1"
@@ -3181,7 +3181,7 @@ __metadata:
   peerDependenciesMeta:
     "@vite-pwa/assets-generator":
       optional: true
-  checksum: 10/591efa46a98be2bcde718588d6d65deed0614034e40df4aad3a1e7cf381cb8ccfe4d7d97e1e9e2549a05bb32868141bb061fa88e9b4ab1391a436417fc00d1cb
+  checksum: 10/ed398fb76f24133e9a95e1f06d330a06446f3fa47c4720d351430cd433b1f5cca0e44f702fd05ecd2ff323f25e0d7a1ac3a639222ec4840d4ee476970a69e8c0
   languageName: node
   linkType: hard
 
@@ -10051,14 +10051,14 @@ __metadata:
     "@nuxt/content": "npm:^2.13.2"
     "@nuxtjs/tailwindcss": "npm:^6.12.1"
     "@sapphire/prettier-config": "npm:^2.0.0"
-    "@tailwindcss/typography": "npm:^0.5.14"
-    "@vite-pwa/nuxt": "npm:^0.10.0"
+    "@tailwindcss/typography": "npm:^0.5.15"
+    "@vite-pwa/nuxt": "npm:^0.10.1"
     nuxt: "npm:^3.13.0"
     prettier: "npm:^3.3.3"
     prettier-plugin-tailwindcss: "npm:^0.6.6"
     sitemap: "npm:^8.0.0"
     typescript: "npm:^5.5.2"
-    vite-plugin-pwa: "npm:^0.20.1"
+    vite-plugin-pwa: "npm:^0.20.2"
   languageName: unknown
   linkType: soft
 
@@ -11640,9 +11640,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-pwa@npm:>=0.20.0 <1, vite-plugin-pwa@npm:^0.20.1":
-  version: 0.20.1
-  resolution: "vite-plugin-pwa@npm:0.20.1"
+"vite-plugin-pwa@npm:>=0.20.0 <1, vite-plugin-pwa@npm:^0.20.2":
+  version: 0.20.2
+  resolution: "vite-plugin-pwa@npm:0.20.2"
   dependencies:
     debug: "npm:^4.3.4"
     pretty-bytes: "npm:^6.1.1"
@@ -11657,7 +11657,7 @@ __metadata:
   peerDependenciesMeta:
     "@vite-pwa/assets-generator":
       optional: true
-  checksum: 10/e4c136ea4b52c43d25d0ca38884cd87d58cda0a14174c5399ca1232d896f01d99c877828148a9ba3e6aed967c6c0b669b464cd303e95f15c5eaff082aa066e8c
+  checksum: 10/335e339cf4b02ab04b35578df50c0eb7e53d0cd689e59e731cb51032c5c76a20b0c41441921c5b99425b18ea59850074707f6d832bb77c02a3d1f26be5b43849
   languageName: node
   linkType: hard
 
