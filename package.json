@@ -13,13 +13,13 @@
 		"@nuxtjs/tailwindcss": "^6.12.1",
 		"@sapphire/prettier-config": "^2.0.0",
 		"@tailwindcss/typography": "^0.5.15",
-		"@vite-pwa/nuxt": "^0.10.1",
-		"nuxt": "^3.13.0",
+		"@vite-pwa/nuxt": "^0.10.5",
+		"nuxt": "^3.13.1",
 		"prettier": "^3.3.3",
 		"prettier-plugin-tailwindcss": "^0.6.6",
 		"sitemap": "^8.0.0",
 		"typescript": "^5.5.2",
-		"vite-plugin-pwa": "^0.20.2"
+		"vite-plugin-pwa": "^0.20.5"
 	},
 	"packageManager": "yarn@4.4.1"
 }
