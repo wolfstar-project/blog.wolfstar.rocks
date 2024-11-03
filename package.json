@@ -13,7 +13,7 @@
 		"@nuxtjs/tailwindcss": "^6.12.2",
 		"@sapphire/prettier-config": "^2.0.0",
 		"@tailwindcss/typography": "^0.5.15",
-		"@vite-pwa/nuxt": "^0.10.5",
+		"@vite-pwa/nuxt": "^0.10.6",
 		"nuxt": "^3.13.2",
 		"prettier": "^3.3.3",
 		"prettier-plugin-tailwindcss": "^0.6.8",
