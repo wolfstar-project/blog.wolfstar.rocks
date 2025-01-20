@@ -57,7 +57,7 @@ const manifestIcons = [
 ];
 
 export default defineNuxtConfig({
-	modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt'],
+	modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt', '@nuxthub/core', '@nuxthq/studio'],
 	content: {
 		documentDriven: true
 	},
@@ -166,6 +166,7 @@ export default defineNuxtConfig({
 			]
 		}
 	},
+
 	nitro: {
 		prerender: {
 			routes: ['/sitemap.xml', '/'],
