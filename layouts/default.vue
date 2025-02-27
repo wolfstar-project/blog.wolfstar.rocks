@@ -39,7 +39,10 @@
 </template>
 
 <script setup lang="ts">
-const { page } = useContent();
+const route = useRoute();
+const { data: page } = await useAsyncData(route.path, () => {
+	return queryCollection('content').path(route.path).first();
+});
 
 const date = new Intl.DateTimeFormat(['en-GB', 'en-US']);
 const longDate = new Intl.DateTimeFormat(['en-GB', 'en-US'], { dateStyle: 'full' });

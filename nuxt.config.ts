@@ -57,10 +57,8 @@ const manifestIcons = [
 ];
 
 export default defineNuxtConfig({
-	modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt', '@nuxthub/core', '@nuxthq/studio'],
-	content: {
-		documentDriven: true
-	},
+
+	modules: ['@nuxtjs/sitemap', '@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt','@nuxthub/core', '@nuxthq/studio'],
 	pwa: {
 		registerType: 'autoUpdate',
 		includeManifestIcons: false,
@@ -172,5 +170,6 @@ export default defineNuxtConfig({
 			routes: ['/sitemap.xml', '/'],
 			crawlLinks: true
 		}
-	}
+	},
+	compatibilityDate: '2025-02-25'
 });
