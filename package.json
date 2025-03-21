@@ -22,7 +22,7 @@
 		"sitemap": "^8.0.0",
 		"typescript": "^5.5.2",
 		"vite-plugin-pwa": "^0.21.1",
-		"wrangler": "^3.109.2"
+		"wrangler": "^4.3.0"
 	},
 	"packageManager": "yarn@4.6.0"
 }
