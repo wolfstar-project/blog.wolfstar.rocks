@@ -57,8 +57,8 @@ const manifestIcons = [
 ];
 
 export default defineNuxtConfig({
-
-	modules: ['@nuxtjs/sitemap', '@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt','@nuxthub/core', '@nuxthq/studio'],
+	site: { url: 'blog.wolfstar.rocks' },
+	modules: ['@nuxtjs/sitemap', '@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt', '@nuxthub/core', '@nuxthq/studio'],
 	pwa: {
 		registerType: 'autoUpdate',
 		includeManifestIcons: false,
