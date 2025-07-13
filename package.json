@@ -9,20 +9,20 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@nuxt/content": "^3.4.0",
+		"@nuxt/content": "^3.6.3",
 		"@nuxthq/studio": "2.2.1",
-		"@nuxthub/core": "^0.8.24",
-		"@nuxtjs/sitemap": "7.2.10",
-		"@nuxtjs/tailwindcss": "^6.13.2",
+		"@nuxthub/core": "^0.9.0",
+		"@nuxtjs/sitemap": "7.4.3",
+		"@nuxtjs/tailwindcss": "^6.14.0",
 		"@sapphire/prettier-config": "^2.0.0",
 		"@tailwindcss/typography": "^0.5.16",
-		"@vite-pwa/nuxt": "^1.0.0",
-		"nuxt": "^3.16.2",
-		"prettier": "^3.5.3",
-		"prettier-plugin-tailwindcss": "^0.6.11",
+		"@vite-pwa/nuxt": "^1.0.4",
+		"nuxt": "^3.17.7",
+		"prettier": "^3.6.2",
+		"prettier-plugin-tailwindcss": "^0.6.14",
 		"typescript": "^5.8.3",
-		"vite-plugin-pwa": "^1.0.0",
-		"wrangler": "^3.114.5"
+		"vite-plugin-pwa": "^1.0.1",
+		"wrangler": "^3.114.11"
 	},
-	"packageManager": "yarn@4.9.0"
+	"packageManager": "yarn@4.9.2"
 }
