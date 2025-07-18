@@ -49,6 +49,8 @@ const longDate = new Intl.DateTimeFormat(['en-GB', 'en-US'], { dateStyle: 'full'
 </script>
 
 <style scoped>
+@reference '@/assets/css/tailwind.css';
+
 .btn {
 	@apply inline-flex cursor-pointer select-none flex-wrap items-center justify-center rounded-lg border-0 py-3 px-4 text-center no-underline;
 	transition-property: background-color, box-shadow;

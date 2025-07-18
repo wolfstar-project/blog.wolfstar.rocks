@@ -26,7 +26,7 @@
 						<p class="mb-6 opacity-80">
 							<small>
 								Published on
-								<u :title="longDate.format(new Date(article.date))">{{ date.format(new Date(article.date)) }}</u> by
+								<u :title="longDate.format(new Date(article.date as string))">{{ date.format(new Date(article.date as string)) }}</u> by
 								<span class="opacity-90">{{ article.author }}</span></small
 							>
 						</p>

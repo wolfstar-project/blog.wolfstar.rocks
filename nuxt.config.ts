@@ -1,5 +1,6 @@
 import '@vite-pwa/nuxt';
 import 'nuxt';
+import tailwindcss from '@tailwindcss/vite';
 
 const manifestIcons = [
 	{
@@ -58,7 +59,7 @@ const manifestIcons = [
 
 export default defineNuxtConfig({
 	site: { url: 'blog.wolfstar.rocks' },
-	modules: ['@nuxtjs/sitemap', '@nuxt/content', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt', '@nuxthub/core', '@nuxthq/studio'],
+	modules: ['@nuxtjs/sitemap', '@nuxt/content', '@vite-pwa/nuxt', '@nuxthub/core'],
 	pwa: {
 		registerType: 'autoUpdate',
 		includeManifestIcons: false,
@@ -164,6 +165,11 @@ export default defineNuxtConfig({
 			]
 		}
 	},
+	vite: {
+		plugins: [
+			tailwindcss()
+		]
+	},
 
 	nitro: {
 		prerender: {
@@ -171,5 +177,10 @@ export default defineNuxtConfig({
 			crawlLinks: true
 		}
 	},
+	content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
 	compatibilityDate: '2025-02-25'
 });
