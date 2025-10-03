@@ -1,5 +1,5 @@
 <template>
-	<nuxt-layout name="main">
+
 		<h2 class="mb-12 text-center text-4xl font-extrabold">Latest articles</h2>
 		<div class="mx-4 grid gap-3 md:mx-0 lg:grid-cols-2 lg:gap-10">
 			<nuxt-link
@@ -38,13 +38,17 @@
 				</p>
 			</nuxt-link>
 		</div>
-	</nuxt-layout>
+
 </template>
 
 <script setup lang="ts">
 const { data } = await useAsyncData('navigation', () => {
 	return queryCollectionNavigation('content', ['title', 'description', 'author', 'path', 'image', 'date']).order('id', 'DESC');
 });
+
+definePageMeta({
+	layout: 'main'
+})
 
 const date = new Intl.DateTimeFormat(['en-GB', 'en-US']);
 const longDate = new Intl.DateTimeFormat(['en-GB', 'en-US'], { dateStyle: 'full' });
