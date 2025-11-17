@@ -58,6 +58,7 @@ const manifestIcons = [
 ];
 
 export default defineNuxtConfig({
+	css: ['~/app/assets/css/tailwind.css'],
 	site: { url: 'blog.wolfstar.rocks' },
 	modules: ['@nuxtjs/sitemap', '@nuxt/content', '@vite-pwa/nuxt', '@nuxthub/core'],
 	pwa: {
