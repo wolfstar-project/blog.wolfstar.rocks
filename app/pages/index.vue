@@ -26,7 +26,7 @@
 						<p class="mb-6 opacity-80">
 							<small>
 								Published on
-								<u :title="longDate.format(new Date(article.date as string))">{{ date.format(new Date(article.date as string)) }}</u> by
+								<u :title="formatLongDate(article.date as string)">{{ formatDate(article.date as string) }}</u> by
 								<span class="opacity-90">{{ article.author }}</span></small
 							>
 						</p>
@@ -50,8 +50,7 @@ definePageMeta({
 	layout: 'main'
 })
 
-const date = new Intl.DateTimeFormat(['en-GB', 'en-US']);
-const longDate = new Intl.DateTimeFormat(['en-GB', 'en-US'], { dateStyle: 'full' });
+const { formatDate, formatLongDate } = useDateFormatter();
 
 useHead({
 	title: 'WolfStar Blog'

@@ -8,7 +8,7 @@
 				<div>
 					<h1 class="mb-0">{{ page.title }}</h1>
 					<small class="opacity-80">
-						Published on <u :title="longDate.format(new Date(page.date))">{{ date.format(new Date(page.date)) }}</u> by
+						Published on <u :title="formatLongDate(page.date)">{{ formatDate(page.date) }}</u> by
 						<span class="opacity-90">{{ page.author }}</span>
 					</small>
 				</div>
@@ -44,8 +44,7 @@ const { data: page } = await useAsyncData(route.path, () => {
 	return queryCollection('content').path(route.path).first();
 });
 
-const date = new Intl.DateTimeFormat(['en-GB', 'en-US']);
-const longDate = new Intl.DateTimeFormat(['en-GB', 'en-US'], { dateStyle: 'full' });
+const { formatDate, formatLongDate } = useDateFormatter();
 </script>
 
 <style scoped>
