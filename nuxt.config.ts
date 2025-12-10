@@ -59,7 +59,8 @@ const manifestIcons = [
 
 export default defineNuxtConfig({
 	site: { url: 'blog.wolfstar.rocks' },
-	modules: ['@nuxtjs/sitemap', '@nuxt/content', '@vite-pwa/nuxt', '@nuxthub/core'],
+	modules: ['@nuxtjs/sitemap', '@nuxt/content', '@vite-pwa/nuxt'],
+	
 	pwa: {
 		registerType: 'autoUpdate',
 		includeManifestIcons: false,
@@ -91,9 +92,11 @@ export default defineNuxtConfig({
 			]
 		}
 	},
+
 	typescript: {
 		shim: false
 	},
+
 	app: {
 		head: {
 			charset: 'utf-8',
@@ -165,6 +168,7 @@ export default defineNuxtConfig({
 			]
 		}
 	},
+
 	vite: {
 		plugins: [
 			tailwindcss()
@@ -177,10 +181,8 @@ export default defineNuxtConfig({
 			crawlLinks: true
 		}
 	},
-	content: {
-    preview: {
-      api: 'https://api.nuxt.studio'
-    }
-  },
+
+	css: ['@/assets/css/tailwind.css'],
+
 	compatibilityDate: '2025-02-25'
 });
