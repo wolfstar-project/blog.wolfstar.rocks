@@ -59,6 +59,7 @@ const manifestIcons = [
 
 export default defineNuxtConfig({
 	site: { url: 'blog.wolfstar.rocks' },
+
 	modules: ['@nuxtjs/sitemap', '@nuxt/content', '@vite-pwa/nuxt'],
 	
 	pwa: {
