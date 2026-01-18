@@ -9,14 +9,14 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@nuxt/content": "^3.10.0",
+		"@nuxt/content": "^3.11.0",
 		"@nuxtjs/sitemap": "^7.5.2",
 		"@sapphire/prettier-config": "^2.0.0",
 		"@tailwindcss/typography": "^0.5.19",
 		"@tailwindcss/vite": "^4.1.18",
 		"@vite-pwa/nuxt": "^1.1.0",
 		"nuxt": "^4.2.2",
-		"prettier": "^3.7.4",
+		"prettier": "^3.8.0",
 		"prettier-plugin-tailwindcss": "^0.7.2",
 		"tailwindcss": "^4.1.18",
 		"taze": "^19.9.2",
