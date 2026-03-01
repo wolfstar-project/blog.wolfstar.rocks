@@ -9,23 +9,23 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@nuxt/content": "^3.11.2",
+		"@nuxt/content": "^3.12.0",
 		"@nuxtjs/sitemap": "^7.6.0",
 		"@sapphire/prettier-config": "^2.0.0",
 		"@tailwindcss/typography": "^0.5.19",
-		"@tailwindcss/vite": "^4.2.0",
+		"@tailwindcss/vite": "^4.2.1",
 		"@vite-pwa/nuxt": "^1.1.1",
 		"nuxt": "^4.3.1",
 		"prettier": "^3.8.1",
 		"prettier-plugin-tailwindcss": "^0.7.2",
-		"tailwindcss": "^4.2.0",
+		"tailwindcss": "^4.2.1",
 		"taze": "^19.9.2",
 		"typescript": "^5.8.3",
 		"vite-plugin-pwa": "^1.2.0"
 	},
-	"packageManager": "pnpm@10.30.1",
+	"packageManager": "pnpm@10.30.3",
 	"volta": {
-		"node": "24.13.1"
+		"node": "24.14.0"
 	},
 	"engines": {
 		"node": "24.11.1"
