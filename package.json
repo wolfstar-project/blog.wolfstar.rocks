@@ -13,17 +13,17 @@
 		"@nuxtjs/sitemap": "^7.6.0",
 		"@sapphire/prettier-config": "^2.0.0",
 		"@tailwindcss/typography": "^0.5.19",
-		"@tailwindcss/vite": "^4.2.2",
+		"@tailwindcss/vite": "^4.2.4",
 		"@vite-pwa/nuxt": "^1.1.1",
 		"nuxt": "^4.4.2",
 		"prettier": "^3.8.3",
-		"prettier-plugin-tailwindcss": "^0.7.2",
-		"tailwindcss": "^4.2.2",
+		"prettier-plugin-tailwindcss": "^0.7.3",
+		"tailwindcss": "^4.2.4",
 		"taze": "^19.11.0",
 		"typescript": "^5.8.3",
 		"vite-plugin-pwa": "^1.2.0"
 	},
-	"packageManager": "pnpm@10.33.0",
+	"packageManager": "pnpm@10.33.2",
 	"volta": {
 		"node": "24.15.0"
 	},
